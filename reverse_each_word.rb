@@ -8,5 +8,3 @@ sentence.reverse!
   #new << " #{words.reverse!}"
 
 end
-new
-end
