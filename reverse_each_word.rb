@@ -16,6 +16,6 @@ word.reverse!
 #word.join(" ")
 #  "#{word}"
 end
-new_sent.join(word)
+new_sent.join("#{word}")
 end
 #sentence.collect{|word| word.reverse!}
