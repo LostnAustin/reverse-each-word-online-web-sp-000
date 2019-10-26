@@ -7,4 +7,5 @@ def reverse_each_word(sentence
   new << " #{words.reverse!}"
 
 end
+new
 end
