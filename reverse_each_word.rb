@@ -10,11 +10,10 @@
 #  end
 
 def reverse_each_word(sentence)
-
-#sentence.split(" ")
-sentence.collect do |word|
-word.reverse!
-  "#{word}"
+new_sent = []
+sentence.split(" ")
+sentence.collect{|word| word.reverse!}
+  new_sent.join(" ")
 end
 
 
