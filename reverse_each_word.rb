@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   new = []
   # new array
   new.each do |word|
-new << "#{sentence.reverse!}"
+new << "#{word.reverse!}"
   #  new << word.reverse!
 end
     new
