@@ -5,7 +5,7 @@ sentence = sentence.split(" ")
   # new array
   new.each do |word|
 
-    new << word.reverse!
+  #  new << word.reverse!
 end
     new
 end
