@@ -13,3 +13,4 @@ sentence.collect do |word|
   #new << " #{words.reverse!}"
 
 end
+end
