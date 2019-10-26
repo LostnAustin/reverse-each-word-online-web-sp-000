@@ -4,7 +4,7 @@ sentence = string.split(" ")
   new = []
   # new array
   new.each do |word|
-    
+
     new << word.reverse!
 end
     new
