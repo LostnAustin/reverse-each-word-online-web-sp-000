@@ -14,5 +14,5 @@ new_sent = []
 sentence.split(" ")
 sentence.collect{|word| word.reverse!}
   new_sent.join(" ")
-end
+
 end
