@@ -6,7 +6,7 @@ sentence.split(" ")
 
 sentence.collect do |word|
   word.reverse!
-  
+
  sentence.join(" ")
 #.reverse().join("")
   #new = []
