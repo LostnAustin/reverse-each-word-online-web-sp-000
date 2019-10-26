@@ -6,3 +6,4 @@ def reverse_each_word(sentence)
   " #{words.reverse!}""
 end
 end
+end
