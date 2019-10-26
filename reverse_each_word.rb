@@ -15,6 +15,6 @@ sentence.split(" ").collect do |word|
 word.reverse!
 #word.join(" ")
 #  "#{word}"
-end.join
+end.join(" ")
 end
 #sentence.collect{|word| word.reverse!}
