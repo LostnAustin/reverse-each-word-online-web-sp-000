@@ -1,8 +1,10 @@
 
 
 
-def reverse_each_word(sentence)
+def reverse_each_word(sentence
+  new = []
   sentence.collect do |words|
-  " #{words.reverse!}"
+  new << " #{words.reverse!}"
+
 end
 end
