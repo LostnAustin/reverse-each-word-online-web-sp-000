@@ -4,4 +4,5 @@ def reverse_each_word(sentence)
     reversed << "#{word.reverse!}"
 end
     reversed
+
 end
